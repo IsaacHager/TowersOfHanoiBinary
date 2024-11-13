@@ -1,16 +1,16 @@
-OVERVIEW:
+##OVERVIEW:
 
  Provides a solution for a Towers of Hanoi puzzle of a given size. 
 
 
-INCLUDED FILES:
+##INCLUDED FILES:
 
  * TowersOfHanoiBinary.java - source file
  * TowersOfHanoiDriver.java - source file
  * README - this file
 
 
-COMPILING AND RUNNING:
+##COMPILING AND RUNNING:
 
  From the directory containing all source files, compile the
  driver class (and all dependencies) with the command:
@@ -22,7 +22,7 @@ COMPILING AND RUNNING:
  Console output will give the results after the program finishes.
 
 
-PROGRAM DESIGN AND IMPORTANT CONCEPTS:
+##PROGRAM DESIGN AND IMPORTANT CONCEPTS:
 
  This program uses a binary counting algorithm to efficiently
  solve the Towers Of Hanoi puzzle. It generates the minimum number
@@ -54,7 +54,7 @@ PROGRAM DESIGN AND IMPORTANT CONCEPTS:
  efficient than simply checking the location of all smaller discs. which
  is what the program currently does.
 
-TESTING:
+##TESTING:
 
  This program was tested with the following invalid command line arguments:
  -1;
